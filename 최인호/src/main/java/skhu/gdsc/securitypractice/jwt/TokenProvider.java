@@ -25,7 +25,7 @@ import org.springframework.stereotype.Component;
 import skhu.gdsc.securitypractice.dto.TokenDto;
 
 @Slf4j // 자바 로깅 api 제공.
-@Component
+@Component // 스프링이 자체적으로 bean에 등록.
 public class TokenProvider {
 
   private static final String AUTHORITIES_KEY = "auth";
@@ -95,7 +95,7 @@ public class TokenProvider {
     return false; // 위 경우 catch에 걸리면 false 반환.
   }
 
-  private Claims parseClaims(String accessToken) { // getAuthentication 메서드를 위해, 토큰에서 claims를 파싱하는 메서드.
+  private Claims parseClaims(String accessToken) { // 위의 getAuthentication 메서드를 위해, 토큰에서 claims를 파싱하는 메서드.
     try {
       return Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(accessToken).getBody();
     } catch (ExpiredJwtException e) {

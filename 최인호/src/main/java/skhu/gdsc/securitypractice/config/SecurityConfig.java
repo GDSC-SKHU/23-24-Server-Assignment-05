@@ -13,7 +13,7 @@ import skhu.gdsc.securitypractice.jwt.JwtAccessDeniedHandler;
 import skhu.gdsc.securitypractice.jwt.JwtAuthenticationEntryPoint;
 import skhu.gdsc.securitypractice.jwt.TokenProvider;
 
-@Configuration
+@Configuration // 해당 부분이 설정 파일이라는 어노테이션.
 @RequiredArgsConstructor
 public class SecurityConfig {
   private final TokenProvider tokenProvider;
@@ -27,7 +27,7 @@ public class SecurityConfig {
   //// BCrypt 알고리즘을 이용한 PasswordEncoder를 생성, 반환
 
   @Bean
-  public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+  public SecurityFilterChain filterChain(HttpSecurity http) throws Exception { //HttpSecurity를 파라미터로 받아서 보안 설정을 수행하는 메서드.
     http.csrf().disable() // CSRF를 비활성화.
 
             .exceptionHandling() // 예외 처리 설정을 시작

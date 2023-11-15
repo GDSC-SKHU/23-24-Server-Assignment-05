@@ -13,7 +13,7 @@ public class JwtSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurity
   private final TokenProvider tokenProvider; // JWT를 생성하고 검증하는데 사용되는 TokenProvider를 선언
 
   @Override
-  public void configure(HttpSecurity http) {
+  public void configure(HttpSecurity http) { // JWT 인증 필터를 추가하는 작업.
     JwtFilter customFilter = new JwtFilter(tokenProvider); // jwtFilter 객체를 만들어서
     // UsernamePasswordAuthenticationFilter를 실행하기 전에 JwtFilter가 실행되도록 설정
     http.addFilterBefore(customFilter, UsernamePasswordAuthenticationFilter.class);
