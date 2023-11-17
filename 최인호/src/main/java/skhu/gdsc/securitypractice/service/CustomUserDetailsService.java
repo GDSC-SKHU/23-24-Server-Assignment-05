@@ -1,4 +1,4 @@
-package skhu.gdsc.securitypractice.service;
+ package skhu.gdsc.securitypractice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
@@ -23,10 +23,10 @@ public class CustomUserDetailsService implements UserDetailsService { // UserDet
 
   @Override
   @Transactional
-  public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException { // username을 가져와서
-    return memberRepository.findByEmail(username)// 그걸로 사용자를 찾고 찾지 못한다면 예외를 터트림.
-            .map(this::createUserDetails)
-            .orElseThrow(() -> new UsernameNotFoundException(username + " -> DB에서 찾을 수 없습니다."));
+  public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException { // 사용자 정보 불러오기.
+    return memberRepository.findByEmail(username)// username을 통해서 멤버를 찾고
+            .map(this::createUserDetails) // 찾은 멤버값으로 createUserDetails 메서드를 수행해 UserDetails 객체로 변환.
+            .orElseThrow(() -> new UsernameNotFoundException(username + " -> DB에서 찾을 수 없습니다."));  // 없으면 예외처리.
   }
 
   private UserDetails createUserDetails(Member member) { // Member를 UserDetails로 반환하는 메서드
@@ -34,7 +34,7 @@ public class CustomUserDetailsService implements UserDetailsService { // UserDet
     // 사용자 권환을 GrantedAuthority 객체로 생성하고
 
     return new User( // UserDetails 객체를 생성해서 반환.
-            String.valueOf(member.getId()),
+            String.valueOf(member.getId()), // User 객체는 사용자의 아이디, 비밀번호, 권한 정보를 가지고 있음.
             member.getPassword(),
             Collections.singleton(grantedAuthority)
     );

@@ -24,7 +24,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 import skhu.gdsc.securitypractice.dto.TokenDto;
 
-@Slf4j // 자바 로깅 api 제공.
+@Slf4j // 로그 띄우고 싶을 때 선언해서 콘솔창에 로그를 띄움.
 @Component // 스프링이 자체적으로 bean에 등록.
 public class TokenProvider {
 
@@ -49,10 +49,10 @@ public class TokenProvider {
 
     Date accessTokenExpiresIn = new Date(now + ACCESS_TOKEN_EXPIRE_TIME); // 토큰의 만료 시간을 설정.
     String accessToken = Jwts.builder() // 위 값들로 jwt 생성.
-            .setSubject(authentication.getName())
-            .claim(AUTHORITIES_KEY, authorities)
-            .setExpiration(accessTokenExpiresIn)
-            .signWith(key, SignatureAlgorithm.HS256)
+            .setSubject(authentication.getName()) // 이름 받고
+            .claim(AUTHORITIES_KEY, authorities) // 권한 정보를 받고
+            .setExpiration(accessTokenExpiresIn) // 만료 시간 설정
+            .signWith(key, SignatureAlgorithm.HS256) // 변조 방지를 위한 서명
             .compact();
 
     return TokenDto.builder() // 토큰 정보를 가진 Dto 반환.
@@ -71,7 +71,7 @@ public class TokenProvider {
 
     Collection<? extends GrantedAuthority> authorities =
             Arrays.stream(claims.get(AUTHORITIES_KEY).toString().split(","))
-                    .map(SimpleGrantedAuthority::new)
+                    .map(SimpleGrantedAuthority::new) // SimpleGrantedAuthority : 사용자의 권환을 표현.
                     .collect(Collectors.toList()); // 권한 정보를 가저와서 인증 객체를 만듦.
 
     UserDetails principal = new User(claims.getSubject(), "", authorities); // 유저 객체를 만듦.

@@ -24,7 +24,7 @@ public class MemberService {
   private final TokenProvider tokenProvider;
 
   @Transactional
-  public MemberResponseDto signup(MemberRequestDto memberRequestDto) {
+  public MemberResponseDto signup(MemberRequestDto memberRequestDto) { // 회원가입 기능.
     if (memberRepository.existsByEmail(memberRequestDto.getEmail())) { // 이미 존재하는 이메일인지 확인하고, 존재하면 예외를 발생
       throw new RuntimeException("이미 가입되어 있는 유저입니다");
     }
@@ -34,7 +34,7 @@ public class MemberService {
   }
 
   @Transactional
-  public MemberResponseDto adminSignup(MemberRequestDto memberRequestDto) {
+  public MemberResponseDto adminSignup(MemberRequestDto memberRequestDto) { // 회원가입 기능.
     if (memberRepository.existsByEmail(memberRequestDto.getEmail())) { // 이미 존재하는 이메일인지 확인하고, 존재하면 예외를 발생
       throw new RuntimeException("이미 가입되어 있는 유저입니다");
     }
