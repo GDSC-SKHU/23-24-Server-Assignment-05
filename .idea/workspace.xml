@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5623329d-f09e-4c5b-a7eb-01a0732d44d9" name="Changes" comment="" />
+    <list default="true" id="5623329d-f09e-4c5b-a7eb-01a0732d44d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/.idea/gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/gradle/.idea/gradle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/23-24-Server-Assignment-05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/23-24-Server-Assignment-05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/박소정/23-24-Server-Assignment-05-주석/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,9 +54,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Y25XvtcY8mcSO03qfJteIdhZa2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,14 +64,50 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ijiyun/GDSC/GDSC 23-24/SpringSecurity+JWT/23-24-Server-Assignment-05",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/git clone/23-24-Server-Assignment-05/박소정/23-24-Server-Assignment-05-주석/build.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "2c0e9244731f91524a5b2174a44d11f4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="23-24-Server-Assignment-05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="23-24-Server-Assignment-05" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SecurityPractice.main" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="skhu.gdsc.securitypractice.SecurityPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1699710877184</updated>
       <workItem from="1699710879542" duration="29000" />
+      <workItem from="1699892787596" duration="282000" />
+      <workItem from="1699893103208" duration="74000" />
+      <workItem from="1699893196434" duration="196000" />
+      <workItem from="1699893408464" duration="234000" />
+      <workItem from="1699893834298" duration="332000" />
+      <workItem from="1699894183109" duration="1285000" />
+      <workItem from="1699962637300" duration="2173000" />
+      <workItem from="1699965303705" duration="121000" />
     </task>
     <servers />
   </component>
