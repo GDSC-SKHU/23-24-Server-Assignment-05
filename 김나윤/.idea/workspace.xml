@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5623329d-f09e-4c5b-a7eb-01a0732d44d9" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/SecurityPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/auto_assign.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/23-24-Server-Assignment-05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/SecurityPracticeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/config/JwtSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/controller/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/domain/Authority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/domain/Member$MemberBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/domain/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/dto/MemberRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/dto/MemberResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/dto/TokenDto$TokenDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/dto/TokenDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/jwt/JwtAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/jwt/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/jwt/JwtFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/jwt/TokenProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/repository/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/service/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/skhu/gdsc/securitypractice/service/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/MemberController.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/MemberRequestDto.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/compileTransaction/stash-dir/MemberService.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/SecurityPracticeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/config/JwtSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/domain/Authority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/dto/MemberRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/dto/MemberResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/dto/TokenDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/jwt/JwtAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/jwt/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/jwt/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/jwt/TokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/skhu/gdsc/securitypractice/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/skhu/gdsc/securitypractice/SecurityPracticeApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Y25XvtcY8mcSO03qfJteIdhZa2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/KERORO/Desktop/23-24-Server-Assignment-05/김나윤",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "2c0e9244731f91524a5b2174a44d11f4",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SecurityPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="DB_JDBC_URL" value="jdbc:mysql://localhost:3306/securitypractice" />
+        <env name="DB_PASSWORD" value="Kerogero556!" />
+        <env name="DB_USER" value="root" />
+        <env name="JWT_SECRET" value="openssl rand -hex 327b25a66957d16b490533f29f3dbdcd1dffebf425414fc2991472584224fa114d" />
+      </envs>
+      <module name="SecurityPractice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="skhu.gdsc.securitypractice.SecurityPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5623329d-f09e-4c5b-a7eb-01a0732d44d9" name="Changes" comment="" />
+      <created>1699710877184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699710877184</updated>
+      <workItem from="1699710879542" duration="29000" />
+      <workItem from="1700287846129" duration="434000" />
+      <workItem from="1700288380633" duration="301000" />
+      <workItem from="1700288782782" duration="143000" />
+      <workItem from="1700288934129" duration="12000" />
+      <workItem from="1700288955334" duration="30000" />
+      <workItem from="1700288994456" duration="13000" />
+      <workItem from="1700289017797" duration="47000" />
+      <workItem from="1700289074442" duration="11932000" />
+      <workItem from="1700313118926" duration="5426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
