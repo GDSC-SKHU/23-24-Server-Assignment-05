@@ -26,7 +26,7 @@ rebel.xml
 # 윈도우 사용자
 desktop.ini
 Thumbs.db
-
+.idea
 # 맥 사용자
 ._*
 .DS_Store
